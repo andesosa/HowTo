@@ -1,13 +1,29 @@
 <!DOCTYPE html>
 <html>
-  <body style="background-color:black;color:white">
-    <!--used an h1 tag, aligned center and colored yellow to resemble the venezuelan flag-->
-    <h1 style="text-align:center;color:#ffa500">Asado Negro Recipe</h1>
-    <!-- used h2 tag for the heading of the introduction and colored it blue-->
-    <h2 style="color:#0000ff">Introduction</h2>
+<head>
+  <style>
+    div.sections {
+      background-color: black;
+    color: white;
+    margin: 20px 0 20px 0;
+    padding: 20px;
+    }
+  </style>
+</head>
+
+  <body>
+    
+    <div class="sections">
+    <!--used an h1 tag, aligned center -->
+    <h1 style="text-align:center;">Asado Negro Recipe</h1>
+    <!-- used h2 tag for the heading of the introduction-->
+    <h2>Introduction</h2>
     <!-- used a p tag for the introduction, an i tag for a word in a differet language, and a b tag for a name-->
     <p> Among many Venezuelan families it is accustomed for the whole family to reunite during a weekday to have lunch. Most of the times the main entree for this lunch is the <i>asado negro</i>. the <i>asado negro</i> is one of Venezuela’s most famous and delicious customary foods. If you directly translate <i>asado negro</i> to english it would be <b>black roast</b>. It is called this way because of the black color of the sauce and the meat.It is common for each family to have their own unique and special <i>asado negro</i> recipe, so today I’m gonna share my own family’s recipe. </p>
     <!-- used a h2 tag for the heading of recipe-->
+    </div>
+    
+    <div class="sections">
     <h2>Recipe</h2>
     <!-- used a h3 tag and moved it to the middle for title of the ingredients table-->
     <h3 style="text-align:center;">Ingredients</h3>
@@ -63,7 +79,11 @@
   <!-- used a p tag for the second paragraph of the recipe. Also us a b tag to show importance and i tags to show a different language-->
   <p>After blending the ingredients, add them to the pan (also add some salt and pepper to the mix). Let it fry for, <b>maximum</b>, an hour. Afterwards take the meat out of the pan and cut it into pieces. Put the meat strips back in the frying pan and add half a can of the beverage <i>malta</i>. Wait until the meat is tender and then it is ready to eat. Yet you are not finished, the <i>asado negro</i> is a food that needs to be eaten with various side dishes. </p>
   <!-- used a h2 tag for the side dishes heading and colored it blue-->
-  <h2 style="color:#0000ff">Side Dishes</h2>
+ </div>
+ 
+ <div class="sections">
+  <!-- used an h2 tag to create the heading for side dishes-->
+  <h2>Side Dishes</h2>
   <!-- used an ul tag to create an unorganized table and used li to organize it.-->
   <ul style="list-style-type:square">
         <li>Vegetables</li>
@@ -77,13 +97,19 @@
     <!-- used an a tag to link a video of a lady making an asado negro-->
     <a href="https://youtu.be/LwcAFrhwtTc">Example of Asado Negro</a>
     <!-- used an h2 tag for the conlusion heading.-->
-    <h2 style="color:#ff0000">Conclusion</h2>
+  </div>
+  
+  <div class="sections">
+    <h2>Conclusion</h2>
     <!-- used a p tag for the conclusion and used an i tag for language differences. Also used a q tag to quote my grandmother-->
     <p>In conclusion the <i>asado negro</i> is a typical venezuelan meal that is meant to be eaten with love ones. As my grandmother says <q><i>porque el amor no es poseer, sino compartir</i></q>. This means that love is not about possession, but about sharing. So what are you waiting for? Go on and share this recipe with your family members and friends.</p>
     <!-- used a h4 tag to create a heading for the about the author-->
-    <h4 style="color:blue">About The Author</h4>
+  </div>
+  
+  <div class="sections">
+    <h4>About The Author</h4>
     <!-- used a table tag for the about the author and used tr and th tags to organize it-->
-    <table style="background-color:blue;">
+    <table>
     <tr>
      <!-- used an img tag to add a picture to the table-->
      <th><img src="https://andesosa.github.io/HowTo/images/Screen%20Shot%202017-08-28%20at%2012.25.10%20PM.png" width="100px" height="100px"></th>
@@ -92,6 +118,8 @@
      Andres De Sosa was born in Valencia, Venezuela on 08/17/99. He moved to the U.S on July 2016. He loves sports, video games, and technology. He is currently a student attending ALHSO
     </th>
     </table>
+  </div>
+  
   </body>
   
 </html>
