@@ -1,0 +1,54 @@
+  h1 {
+     font-family: Ribeye Marrow;
+   }
+   h2 {
+     font-family: Ribeye Marrow;
+   }
+   h3 {
+     text-align: center;
+     font-family: Ribeye Marrow;
+   }
+    .sections {
+    font-family:Raleway;
+    margin: 20px 0 20px 0;
+    padding: 20px;
+    }
+.outer-box {
+     background-color:grey;
+      margin:10px;
+      padding:10px;
+      min-height:300px;
+    }
+    .name {
+      color:white;
+      font-family:Tahoma;
+      margin-left:20px;
+    }
+    .picture {
+      margin-left:20px;
+      float:left;
+      margin-right:20px;
+      padding-bottom:20px;
+      border:2px solid black;
+    }
+    .bio {
+      font-family:Tahoma;
+      padding-left:20px;
+      padding-right:20px;
+      padding-bottom:20px;
+    }
+    img {
+      display:block;
+    }
+    ul {
+      list-style-type:square
+    }
+    table {
+      width:100%;
+    }
+    #ad {
+      float:right;
+      margin-top:20px;
+      margin-right:10px;
+      margin-left:10px;
+    }
